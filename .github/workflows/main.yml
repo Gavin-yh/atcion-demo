@@ -25,7 +25,7 @@ jobs:
       # Similar to npm, provide a --if-present option that exits with a zero code if the script is undefined.
 
       - name: Run deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+      - uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{secrets.BUILD}}
           BRANCH: docs
