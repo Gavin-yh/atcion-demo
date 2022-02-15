@@ -28,5 +28,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{secrets.BUILD}}
-          BRANCH: docs # The branch the action should deploy to.
-          FOLDER: dist # The folder the action should deploy.
+          BRANCH: docs
+          FOLDER: dist
